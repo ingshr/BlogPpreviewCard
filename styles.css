@@ -1,0 +1,86 @@
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    width: 384px;
+    height: 522;
+    margin: 40px auto;
+    border: solid 1px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    
+
+}
+
+svg{
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+}
+
+
+
+.learning{
+    background-color: hsl(47, 88%, 63%);
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 5px;
+    
+}
+
+.articulo{
+    padding: 20px;
+}
+
+.descripcion{
+    color:  hsl(0, 0%, 50%);
+    
+}
+
+.articulo img, .talker{
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.talker{
+    padding-left:5px;
+    font-weight: bold;
+}
+
+
+
+.articulo:hover img{
+    transform: scale(1.1);
+    
+}
+
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color:white;
+    left: 0;
+    
+    
+}
+
+a{
+    color: yellowgreen;
+}
